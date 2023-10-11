@@ -45,13 +45,15 @@ $(function () {
     createPlatform(500, 600, 300, 200);
     createPlatform(600, 600, 300, 200);
     createPlatform(900, 600, 500, 200);
-    createPlatform(500, 300, 200, 20);
+    createPlatform(500, 350, 200, 20);
     createPlatform(400, 500, 300, 20);
     createPlatform(100, 380, 100, 20);
     createPlatform(200, 250, 100, 20);
+    createPlatform(200, 240, 10, -200);
+    createPlatform(200, 50, 100, -20);
     createPlatform(200, 560, 900, 20);
     createPlatform(200, 580, 900, 11);
-    createPlatform(1, 500, 9, 0);
+
 
 
 
@@ -65,6 +67,7 @@ $(function () {
     createCollectable('diamond', 550, 550)
     createCollectable('database', 500, 600)
     createCollectable('diamond', 180, 650)
+    createCollectable('diamond', 240, 70, 0.1, 1)
     
 
 
